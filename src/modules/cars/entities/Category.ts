@@ -10,7 +10,7 @@ class Category {
     name: string;
 
     @Column()
-    descrption: string;
+    description: string;
 
     @CreateDateColumn()
     created_at: Date;
